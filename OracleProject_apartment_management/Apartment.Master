@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Apartment.master.cs" Inherits="OracleProject.Apartment" %>
+
+<%--<!DOCTYPE html>--%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   
+    <title>Apartment Management</title>
+    <link rel="stylesheet" href="CSS/Apa.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            color:black ;
+        }
+        .auto-style2 {
+            font-weight: normal;
+        }
+        .auto-style3 {
+            text-decoration: none;
+        }
+        .auto-style4 {
+            color: #009933;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="header">
+                <div id="intro">
+                    <h1 id="name"> <span class="auto-style2"> <a href="Default.aspx" class="auto-style3"> <strong><span class="auto-style4">Apartment Management</span></strong></a></span> </h1>
+                    <div id="nav">
+                        <a href ="ShowYourAds.aspx" style="text-decoration:none;padding-right:10px"><span class="auto-style1">Show Your Ad</span></a>
+                        <a href ="Address.aspx" style="text-decoration:none;padding-right:10px"><span class="auto-style1">Create Ad</span></a>
+                        <a href="register.aspx" style="text-decoration:none;padding-right:10px"><span class="auto-style1">Register</span></a>
+                        <a href="Login.aspx" style="text-decoration:none;padding-right:10px"><span class="auto-style1">Login</span></a>
+                        <a href="Logout.aspx" style="text-decoration:none;padding-right:10px"><span class="auto-style1">Logout</span></a>
+                        <a href="ShowAllApartments.aspx" style="text-decoration:none"><span class="auto-style1">All_Aparments</span></a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

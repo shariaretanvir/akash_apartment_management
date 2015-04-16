@@ -1,0 +1,36 @@
+﻿body {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+#header {
+    background-color: rgba(243, 243, 243, 0.60);
+    height: 150px;
+}
+
+#intro {
+    background-color: rgba(243, 243, 243, 0.60);
+}
+
+#name {
+    float: left;
+}
+
+#nav {
+    float: right;
+    padding: 15px 15px;
+    background-color: lightblue;
+}
+
+fieldset {
+    width:600px;
+    padding-top:30px;
+    padding-bottom:30px;
+    margin-top:30px;
+    margin-bottom:30px;
+
+    
+}
